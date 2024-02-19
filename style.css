@@ -1,0 +1,284 @@
+.container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    /* text-decoration-color: aliceblue; */
+}
+
+.header {
+    width: 100%;
+
+}
+
+.nav {
+    margin: 10px;
+    padding: 20px 20px;
+    /*align-items: center;*/
+    /*width:100%;*/
+
+    overflow: hidden;
+}
+
+.logo {
+    Padding: 12px 0;
+    font-size: 22px;
+    float: left;
+    color: rgb(170, 230, 206);
+}
+
+.menu {
+    /*position:relative;*/
+    padding: 0;
+    float: right;
+    padding: 16px 0;
+
+}
+
+.menu a {
+    margin: 20px;
+}
+
+.name h1 span {
+    color: rgb(170, 230, 206);
+}
+
+.name {
+    width: 50%;
+    margin: 10% 0;
+    /*padding-left: 10%;*/
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    /*margin: 5% 0;*/
+
+}
+
+.name h1,
+p,
+.contact {
+    padding-left: 20%;
+
+}
+
+.name h1 {
+    font-size: 39px;
+}
+
+.contact {
+
+    margin-top: 38%;
+    /*padding:10%;*/
+    width: 50%;
+
+}
+
+.contact a {
+    width: 70%;
+    /*background-color:rgb(170,230,206);*/
+    padding: 5% 5%;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: rgb(170, 230, 206) solid 1px;
+}
+
+
+.photo {
+    width: 50%;
+    /*height: 60%;*/
+    padding-top: 10%;
+}
+
+.photo img {
+    width: 60%;
+    height: 70%;
+    /*margin:10% 0;*/
+    margin-left: 15%;
+    object-fit: scale-down;
+    /*padding-top: 20%;*/
+
+}
+
+.about {
+    margin: 10%;
+    margin-top: 5%
+}
+
+.about h1,
+h3 {
+    color: rgb(170, 230, 206);
+    margin: 5% 0;
+}
+
+.about p {
+    padding: 0;
+    margin-bottom: 5%;
+
+}
+
+.about img {
+    width: 100%;
+    height: 400px;
+}
+
+.credentials {
+    margin: 15% 10%;
+
+
+}
+
+.credentials h1 {
+    color: rgb(170, 230, 206);
+}
+
+.cred {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10%;
+    length: 60%;
+}
+
+.edu {
+    width: 50%;
+}
+
+.prof {
+    width: 50%;
+
+}
+
+.employement {
+    margin-bottom: 5%;
+}
+
+.employement h3,
+.skill h3,
+.edu h3 {
+    font-size: 25px;
+    margin: 2% 0;
+    color: rgb(170, 230, 206);
+}
+
+.c_name {
+    font-size: 15px;
+}
+
+.designation,
+.desc {
+    font-size: 12px;
+}
+
+.skill {
+    margin-bottom: 5%;
+    /*width: 100%;*/
+
+
+}
+
+.skill_list {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin: 5% 0;
+    /*height:auto;*/
+
+    width: 100%;
+    /*overflow:hidden;*/
+}
+
+.list {
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 5px;
+    border: rgb(170, 230, 206) solid 1px;
+    border-radius: 20px;
+    /*flex-flow:row wrap;*/
+
+}
+
+.graduation h4,
+.sr_sec h4,
+.sec h4 {
+    margin-bottom: 0;
+    color: rgb(170, 230, 206);
+}
+
+.work {
+    margin: 0 10%;
+
+}
+
+.work h1 {
+    color: rgb(170, 230, 206);
+    padding-bottom: 7%;
+}
+
+.work_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.task {
+    /*background-color: aqua;*/
+    margin-bottom: 25px;
+    width: 270px;
+    height: 270px;
+
+}
+
+.task h3 {
+    height: 10%;
+    margin: 0;
+    color: rgb(170, 230, 206);
+}
+
+.description {
+    height: 90%;
+    background-image: url("https://www.truepush.com/blog/wp-content/uploads/2019/09/light-blue-project-management-concept_23-2147782704.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description p {
+    /*padding-top:80%;*/
+
+    margin: 0;
+}
+
+.socialNetwork {
+    margin: 12%;
+    /*margin-top: 1;*/
+    /*margin-bottom: 6%;*/
+    /*height:100vh;*/
+}
+
+.socialNetwork h1 {
+    color: rgb(170, 230, 206);
+    margin: 5% 0;
+
+}
+
+.email {
+    margin: 15% 0;
+    padding: 0 10%
+}
+
+.email p {
+    padding: 0;
+}
+
+.email h3 {
+    color: rgb(170, 230, 206);
+
+}
+
+.socialNetwork div a {
+    margin: 20px;
+
+}
